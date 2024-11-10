@@ -1,0 +1,256 @@
+/* Estilos generales */
+header {
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 85px;
+}
+
+nav {
+  width: 70%;
+  height: 85px;
+  float: left;
+  text-align: right;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+nav ul {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  font-size: 18px;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li:hover {
+  background-color: #209eb2;
+  color: white;
+  padding: 35px 10px;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+h3 {
+  float: right;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.contenedor {
+  width: 90%;
+  height: 85px;
+  margin: auto;
+}
+
+.logo {
+  width: 30%;
+  height: 70px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.imgbanner {
+  margin-top: 10px;
+  width: 60px;
+  height: auto;
+  margin-left: 80px;
+}
+
+.imgredonda {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  margin-top: 100px;
+  margin-left: 60px;
+  box-sizing: border-box;
+}
+
+.contenedorImg {
+  width: 40%;
+  float: left;
+}
+
+.contenedor-section {
+  width: 60%;
+  float: right;
+}
+
+section {
+  width: 100%;
+  height: 600px;
+  background: #e3e3e3;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+  margin-right: 50px;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.columns {
+  width: 33%;
+  float: left;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #11676b;
+  padding: 2px;
+  display: flex;
+}
+
+footer p {
+  margin-left: 60px;
+  color: white;
+}
+
+.datos {
+  width: 40%;
+}
+
+.Derechos {
+  width: 60%;
+}
+
+/* Estilos Responsivos */
+
+/* Para pantallas de hasta 1024px (tabletas y pantallas medianas) */
+@media (max-width: 1024px) {
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contenedor {
+    width: 100%;
+    height: auto;
+  }
+
+  .contenedorImg,
+  .contenedor-section {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+  .contenedor-section {
+    margin-top: 20px;
+  }
+
+  .columns {
+    width: 100%;
+  }
+
+  .imgredonda {
+    width: 200px;
+    height: 200px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  footer p {
+    text-align: center;
+  }
+
+  .Derechos,
+  .datos {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Para pantallas de hasta 768px (móviles grandes) */
+@media (max-width: 768px) {
+  nav {
+    width: 100%;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  .contenedorImg,
+  .contenedor-section {
+    margin: 0;
+    padding: 0 20px;
+  }
+
+  .imgredonda {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+/* Para pantallas de hasta 480px (móviles pequeños) */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+
+  .imgredonda {
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+  }
+
+  .contenedor {
+    width: 100%;
+  }
+
+  .columns {
+    width: 100%;
+  }
+}
