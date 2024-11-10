@@ -1,5 +1,4 @@
-name: Despliegue de la aplicacion en github pages
-on:
+name: Despliegue de aplicacion github pages
   push:
     branches: ["main"]
   workflow_dispatch:
