@@ -1,5 +1,4 @@
-name: Despliegue de la aplicación
-
+name: Despliegue de la aplicacion en github pages
 on:
   push:
     branches: ["main"]
